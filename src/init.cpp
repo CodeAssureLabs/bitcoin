@@ -57,6 +57,7 @@
 #include <node/chainstate.h>
 #include <node/chainstatemanager_args.h>
 #include <node/context.h>
+#include <node/init_hook.h>
 #include <node/interface_ui.h>
 #include <node/kernel_notifications.h>
 #include <node/mempool_args.h>
@@ -241,6 +242,8 @@ void InitContext(NodeContext& node)
         if (!(*node.shutdown_signal)()) return false;
         return true;
     };
+    // The init layer supplies the hook; node/ only invokes it.
+    node.init_hook = [] { init::SetGlobals(); };
 }
 
 //////////////////////////////////////////////////////////////////////////////
@@ -1511,6 +1514,7 @@ bool AppInitMain(NodeContext& node, interfaces::BlockAndHeaderTipInfo* tip_info)
         // Detailed error printed inside StartLogging().
         return false;
     }
+    node::InitHook(node);
 
     LogInfo("Using at most %i automatic connections (%i file descriptors available)", num_p2p_max_connections, available_fds);
 

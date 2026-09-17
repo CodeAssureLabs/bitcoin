@@ -19,6 +19,10 @@ void SetLoggingOptions(const ArgsManager& args);
 [[nodiscard]] util::Result<void> SetLoggingLevel(const ArgsManager& args);
 bool StartLogging(const ArgsManager& args);
 void LogPackageVersion();
+//! Process-wide setup owned by the init layer. Registered on
+//! node::NodeContext::init_hook by InitContext() and run via
+//! node::InitHook(), so node code can trigger it without depending on init/.
+void SetGlobals();
 } // namespace init
 
 #endif // BITCOIN_INIT_COMMON_H
