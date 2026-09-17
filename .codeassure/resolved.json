@@ -1,0 +1,221 @@
+{
+  "artifact_version": 1,
+  "source_manifest_version": 1,
+  "layer_map": {},
+  "path_globs": [
+    {
+      "glob": "src/init/**",
+      "layer": "entry"
+    },
+    {
+      "glob": "src/qt/**",
+      "layer": "entry"
+    },
+    {
+      "glob": "src/bitcoind.cpp",
+      "layer": "entry"
+    },
+    {
+      "glob": "src/bitcoin-*.cpp",
+      "layer": "entry"
+    },
+    {
+      "glob": "src/bitcoin.cpp",
+      "layer": "entry"
+    },
+    {
+      "glob": "src/rpc/**",
+      "layer": "api"
+    },
+    {
+      "glob": "src/rest.cpp",
+      "layer": "api"
+    },
+    {
+      "glob": "src/zmq/**",
+      "layer": "api"
+    },
+    {
+      "glob": "src/wallet/rpc/**",
+      "layer": "api"
+    },
+    {
+      "glob": "src/node/**",
+      "layer": "service"
+    },
+    {
+      "glob": "src/wallet/**",
+      "layer": "service"
+    },
+    {
+      "glob": "src/policy/**",
+      "layer": "service"
+    },
+    {
+      "glob": "src/index/**",
+      "layer": "service"
+    },
+    {
+      "glob": "src/interfaces/**",
+      "layer": "service"
+    },
+    {
+      "glob": "src/ipc/**",
+      "layer": "service"
+    },
+    {
+      "glob": "src/net*.cpp",
+      "layer": "service"
+    },
+    {
+      "glob": "src/net*.h",
+      "layer": "service"
+    },
+    {
+      "glob": "src/validation*",
+      "layer": "service"
+    },
+    {
+      "glob": "src/txmempool*",
+      "layer": "service"
+    },
+    {
+      "glob": "src/kernel/**",
+      "layer": "service"
+    },
+    {
+      "glob": "src/consensus/**",
+      "layer": "domain"
+    },
+    {
+      "glob": "src/primitives/**",
+      "layer": "domain"
+    },
+    {
+      "glob": "src/script/**",
+      "layer": "domain"
+    },
+    {
+      "glob": "src/util/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/crypto/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/common/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/support/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/compat/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/logging/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/crc32c/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/secp256k1/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/minisketch/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/univalue/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/leveldb/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/test/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/bench/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "test/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "contrib/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "ci/**",
+      "layer": "utils"
+    },
+    {
+      "glob": ".github/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "doc/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "cmake/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "share/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "depends/**",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/*.cpp",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/*.h",
+      "layer": "utils"
+    },
+    {
+      "glob": "src/*.py",
+      "layer": "utils"
+    }
+  ],
+  "compiled_rules": {
+    "allowed": {
+      "entry": [
+        "api",
+        "service",
+        "domain",
+        "utils",
+        "config"
+      ],
+      "api": [
+        "service",
+        "domain",
+        "utils",
+        "config"
+      ],
+      "service": [
+        "domain",
+        "utils",
+        "config"
+      ],
+      "domain": [
+        "utils",
+        "config"
+      ]
+    }
+  }
+}

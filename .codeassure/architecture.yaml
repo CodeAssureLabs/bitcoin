@@ -1,0 +1,45 @@
+schema_version: 1
+manifest_version: 1
+repo: CodeAssureLabs/bitcoin
+layers:
+  entry: [api, service, domain]
+  api: [service, domain]
+  service: [domain]
+  domain: []
+cross_cutting: [utils, config]
+forbidden_edges:
+  - id: consensus-no-node
+    from: domain
+    to: service
+    reason: "consensus / primitives / script must not include node, wallet, policy or index code (doc/design/libraries.md)"
+    check: blocking
+    severity: high
+  - id: consensus-no-rpc
+    from: domain
+    to: api
+    reason: "consensus-critical code must not include RPC / REST / ZMQ code"
+    check: blocking
+    severity: high
+  - id: node-no-init
+    from: service
+    to: entry
+    reason: "node / wallet must not include init, bitcoind or GUI code"
+    check: blocking
+    severity: high
+required_companions:
+  - id: rpc-needs-functional-test
+    when: "src/rpc/*.cpp"
+    require: ["test/functional/**/*.py"]
+    reason: "a new or changed RPC needs a functional test"
+    check: detect_only
+invariants:
+  - id: no-stdout-in-kernel
+    within: "src/kernel/**"
+    forbid_pattern: '\bstd::(cout|cerr)\b'
+    reason: "libbitcoinkernel logs through the logger, never stdout"
+    check: detect_only
+  - id: no-raw-thread-in-consensus
+    within: "src/consensus/**"
+    forbid_pattern: '\bstd::thread\b'
+    reason: "consensus code is single-threaded by contract"
+    check: detect_only
