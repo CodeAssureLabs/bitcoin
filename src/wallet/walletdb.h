@@ -14,6 +14,8 @@
 #include <wallet/walletutil.h>
 
 #include <cstdint>
+#include <map>
+#include <optional>
 #include <string>
 #include <unordered_set>
 #include <vector>
@@ -284,6 +286,16 @@ public:
 
     //! Delete records of the given types
     bool EraseRecords(const std::unordered_set<std::string>& types);
+
+    /**
+     * Count every record in the database, grouped by record type (the string
+     * prefix of each key, see DBKeys). The records are read straight from the
+     * database without being deserialized or loaded into a wallet.
+     *
+     * @return  A map from record type to the number of records of that type,
+     *          or std::nullopt if the database could not be read.
+     */
+    std::optional<std::map<std::string, size_t>> CountRecords();
 
     bool WriteWalletFlags(uint64_t flags);
     //! Begin a new transaction

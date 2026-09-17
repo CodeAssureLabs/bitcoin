@@ -1289,6 +1289,32 @@ bool WalletBatch::EraseRecords(const std::unordered_set<std::string>& types)
     });
 }
 
+std::optional<std::map<std::string, size_t>> WalletBatch::CountRecords()
+{
+    std::unique_ptr<DatabaseCursor> cursor = m_batch->GetNewCursor();
+    if (!cursor) return std::nullopt;
+
+    std::map<std::string, size_t> counts;
+    DataStream key;
+    DataStream value;
+    while (true) {
+        DatabaseCursor::Status status = cursor->Next(key, value);
+        if (status == DatabaseCursor::Status::DONE) break;
+        if (status == DatabaseCursor::Status::FAIL) return std::nullopt;
+
+        std::string type;
+        try {
+            key >> type;
+        } catch (const std::exception&) {
+            // Every wallet record key starts with its type string; anything
+            // else is not a record this version of the software understands.
+            type = "unknown";
+        }
+        ++counts[type];
+    }
+    return counts;
+}
+
 bool WalletBatch::TxnBegin()
 {
     return m_batch->TxnBegin();
