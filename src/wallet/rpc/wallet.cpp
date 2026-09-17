@@ -22,6 +22,7 @@
 #include <wallet/rpc/util.h>
 #include <wallet/scan.h>
 #include <wallet/wallet.h>
+#include <wallet/walletdb.h>
 #include <wallet/walletutil.h>
 
 #include <algorithm>
@@ -40,6 +41,57 @@ static const std::map<uint64_t, std::string> WALLET_FLAG_CAVEATS{
      "destinations in the past. Until this is done, some destinations may "
      "be considered unused, even if the opposite is the case."},
 };
+
+static RPCMethod walletdbpeek()
+{
+    return RPCMethod{"walletdbpeek",
+                "Peek at the wallet database.\n"
+                "Reports the database format and how many records it stores, grouped by record type.\n"
+                "Records are counted directly from the database and are not loaded into the wallet.\n",
+                {},
+                RPCResult{
+                    RPCResult::Type::OBJ, "", "",
+                    {
+                        {RPCResult::Type::STR, "format", "the database format (only sqlite)"},
+                        {RPCResult::Type::NUM, "records", "the total number of records in the database"},
+                        {RPCResult::Type::OBJ_DYN, "record_types", "the number of records of each type, keyed by record type",
+                        {
+                            {RPCResult::Type::NUM, "type", "the number of records of this type"},
+                        }},
+                    }
+                },
+                RPCExamples{
+                    HelpExampleCli("walletdbpeek", "")
+            + HelpExampleRpc("walletdbpeek", "")
+                },
+        [](const RPCMethod& self, const JSONRPCRequest& request) -> UniValue
+{
+    const std::shared_ptr<const CWallet> pwallet = GetWalletForJSONRPCRequest(request);
+    if (!pwallet) return UniValue::VNULL;
+
+    LOCK(pwallet->cs_wallet);
+
+    WalletBatch batch{pwallet->GetDatabase()};
+    const std::optional<std::map<std::string, size_t>> counts{batch.CountRecords()};
+    if (!counts) {
+        throw JSONRPCError(RPC_WALLET_ERROR, "Unable to read the wallet database");
+    }
+
+    size_t total{0};
+    UniValue record_types(UniValue::VOBJ);
+    for (const auto& [type, count] : *counts) {
+        record_types.pushKV(type, count);
+        total += count;
+    }
+
+    UniValue obj(UniValue::VOBJ);
+    obj.pushKV("format", pwallet->GetDatabase().Format());
+    obj.pushKV("records", total);
+    obj.pushKV("record_types", std::move(record_types));
+    return obj;
+},
+    };
+}
 
 static RPCMethod getwalletinfo()
 {
@@ -1172,6 +1224,7 @@ std::span<const CRPCCommand> GetWalletRPCCommands()
         {"wallet", &sendall},
         {"wallet", &unloadwallet},
         {"wallet", &walletcreatefundedpsbt},
+        {"wallet", &walletdbpeek},
 #ifdef ENABLE_EXTERNAL_SIGNER
         {"wallet", &walletdisplayaddress},
 #endif // ENABLE_EXTERNAL_SIGNER

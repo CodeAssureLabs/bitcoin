@@ -174,6 +174,7 @@ BASE_SCRIPTS = [
     'p2p_compactblocks_blocksonly.py',
     'wallet_hd.py',
     'wallet_blank.py',
+    'wallet_walletdbpeek.py',
     'wallet_keypool_topup.py',
     'wallet_fast_rescan.py',
     'wallet_derivehdkey.py',
