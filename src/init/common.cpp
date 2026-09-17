@@ -157,4 +157,13 @@ void LogPackageVersion()
 #endif
     LogInfo(CLIENT_NAME " version %s", version_string);
 }
+
+void SetGlobals()
+{
+    // Global state that must be in place before node subsystems start.
+    // Logging options and the package version are already applied by
+    // InitLogging(); anything further that the node needs from the init
+    // layer belongs here rather than in node/.
+    LogInfo("Init hook: global setup complete");
+}
 } // namespace init

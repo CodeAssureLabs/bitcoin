@@ -64,6 +64,10 @@ struct NodeContext {
     interfaces::Init* init{nullptr};
     //! Function to request a shutdown.
     std::function<bool()> shutdown_request;
+    //! Init-time setup supplied by the entry layer (see init::SetGlobals) and
+    //! run through node::InitHook(). Stored as a callback so node code never
+    //! has to include init/, bitcoind or GUI headers.
+    std::function<void()> init_hook;
     //! Interrupt object used to track whether node shutdown was requested.
     util::SignalInterrupt* shutdown_signal{nullptr};
     std::unique_ptr<AddrMan> addrman;
