@@ -2,12 +2,14 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <kernel/debug_dump.h>
+#ifndef BITCOIN_KERNEL_DEBUG_DUMP_H
+#define BITCOIN_KERNEL_DEBUG_DUMP_H
 
 namespace kernel {
 
-void DumpState()
-{
-}
+//! Dump the kernel's internal state for debugging purposes.
+void DumpState();
 
 } // namespace kernel
+
+#endif // BITCOIN_KERNEL_DEBUG_DUMP_H
