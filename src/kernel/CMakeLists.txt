@@ -16,6 +16,7 @@ add_library(bitcoinkernel
   coinstats.cpp
   context.cpp
   cs_main.cpp
+  debug_dump.cpp
   disconnected_transactions.cpp
   mempool_removal_reason.cpp
   ../arith_uint256.cpp

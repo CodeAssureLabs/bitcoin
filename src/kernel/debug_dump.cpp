@@ -1,8 +1,8 @@
-#include <iostream>
+#include <logging.h>
 
 namespace kernel {
 void DumpState()
 {
-    std::cout << "kernel state\n";
+    LogDebug(BCLog::KERNEL, "kernel state\n");
 }
 } // namespace kernel
