@@ -22,6 +22,7 @@ layers:
   data: [domain]                   # kernel: only consensus, crypto, util
   domain: []                       # consensus: only crypto
   config: [domain]                 # common: only util, consensus, crypto
+  tests: [entry, api, service, integration, data, domain, config]   # test code may exercise any layer
 cross_cutting: [utils]             # util + crypto: depended on by everything, depend on nothing else
 forbidden_edges:
   - id: kernel-only-consensus-crypto-util

@@ -4138,7 +4138,18 @@
     "domain",
     "utils"
    ],
-   "utils": []
+   "utils": [],
+   "tests": [
+    "api",
+    "config",
+    "data",
+    "domain",
+    "entry",
+    "integration",
+    "service",
+    "tests",
+    "utils"
+   ]
   }
  }
 }
