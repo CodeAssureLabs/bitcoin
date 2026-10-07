@@ -792,6 +792,3154 @@
  },
  "path_globs": [
   {
+   "glob": "src/addrdb.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/addrdb.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/addresstype.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/addresstype.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/addrman.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/addrman.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/addrman_impl.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/arith_uint256.cpp",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/arith_uint256.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/attributes.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/banman.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/banman.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/base58.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/base58.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/bech32.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/bech32.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/bip324.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/bip324.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/bitcoin-chainstate.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/bitcoin-cli.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/bitcoin-tx.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/bitcoin-util.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/bitcoin-wallet.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/bitcoin.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/bitcoind.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/blockencodings.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/blockencodings.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/blockfilter.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/blockfilter.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/chain.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/chain.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/chainparams.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/chainparams.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/chainparamsbase.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/chainparamsbase.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/chainparamsseeds.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/checkqueue.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/clientversion.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/clientversion.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/cluster_linearize.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/coins.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/coins.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/common/args.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/args.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/bloom.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/bloom.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/config.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/init.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/init.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/interfaces.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/license_info.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/license_info.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/messages.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/messages.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/netif.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/netif.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/pcp.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/pcp.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/run_command.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/run_command.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/settings.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/settings.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/signmessage.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/signmessage.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/system.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/system.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/types.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/url.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/common/url.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/compat/assumptions.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/compat/byteswap.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/compat/compat.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/compat/cpuid.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/compat/endian.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/compat/stdin.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/compat/stdin.h",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/compressor.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/compressor.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/consensus/amount.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/consensus/consensus.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/consensus/merkle.cpp",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/consensus/merkle.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/consensus/params.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/consensus/tx_check.cpp",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/consensus/tx_check.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/consensus/tx_verify.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/consensus/tx_verify.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/consensus/validation.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/core_io.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/core_io.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/core_memusage.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/crc32c/include/crc32c/crc32c.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crc32c/src/crc32c_arm64.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crc32c/src/crc32c_arm64_check.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crc32c/src/crc32c_internal.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crc32c/src/crc32c_prefetch.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crc32c/src/crc32c_read_le.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crc32c/src/crc32c_round_up.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crc32c/src/crc32c_sse42.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crc32c/src/crc32c_sse42_check.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/aes.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/aes.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/chacha20.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/chacha20.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/chacha20poly1305.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/chacha20poly1305.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/common.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/hex_base.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/hex_base.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/hkdf_sha256_32.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/hkdf_sha256_32.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/hmac_sha256.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/hmac_sha256.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/hmac_sha512.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/hmac_sha512.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/muhash.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/muhash.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/poly1305.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/poly1305.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/ripemd160.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/ripemd160.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/sha1.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/sha1.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/sha256.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/sha256.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/sha256_arm_shani.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/sha256_avx2.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/sha256_sse4.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/sha256_sse41.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/sha256_x86_shani.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/sha3.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/sha3.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/sha512.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/sha512.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/siphash.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/crypto/siphash.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/cuckoocache.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/dbwrapper.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/dbwrapper.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/deploymentinfo.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/deploymentinfo.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/deploymentstatus.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/deploymentstatus.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/dummywallet.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/external_signer.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/external_signer.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/flatfile.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/flatfile.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/hash.cpp",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/hash.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/headerssync.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/headerssync.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/httprpc.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/httprpc.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/httpserver.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/httpserver.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/i2p.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/i2p.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/index/base.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/index/base.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/index/blockfilterindex.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/index/blockfilterindex.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/index/coinstatsindex.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/index/coinstatsindex.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/index/db_key.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/index/disktxpos.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/index/txindex.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/index/txindex.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/index/txindex_key.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/index/txospenderindex.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/index/txospenderindex.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/indirectmap.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/init.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/init.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/init/basic.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/init/bitcoin-gui.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/init/bitcoin-node.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/init/bitcoin-qt.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/init/bitcoin-wallet.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/init/bitcoind.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/init/common.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/init/common.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/interfaces/chain.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/interfaces/echo.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/interfaces/handler.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/interfaces/init.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/interfaces/ipc.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/interfaces/mining.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/interfaces/node.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/interfaces/rpc.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/interfaces/types.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/interfaces/wallet.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/ipc/capnp/common-types.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/capnp/context.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/capnp/echo-types.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/capnp/init-types.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/capnp/mining-types.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/capnp/mining.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/capnp/protocol.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/capnp/protocol.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/capnp/rpc-types.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/context.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/exception.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/interfaces.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/process.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/process.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/protocol.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/stub.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/ipc/util.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/kernel/bitcoinkernel.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/bitcoinkernel.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/bitcoinkernel_wrapper.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/blockmanager_opts.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/caches.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/chain.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/chain.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/chainparams.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/chainparams.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/chainstatemanager_opts.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/checks.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/checks.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/coinstats.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/coinstats.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/context.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/context.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/cs_main.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/cs_main.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/disconnected_transactions.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/disconnected_transactions.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/mempool_entry.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/mempool_limits.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/mempool_options.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/mempool_removal_reason.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/mempool_removal_reason.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/messagestartchars.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/notifications_interface.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/signet.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/types.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/kernel/warning.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/key.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/key.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/key_io.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/key_io.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/leveldb/db/builder.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/db/db_impl.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/db/db_iter.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/db/dbformat.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/db/filename.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/db/log_format.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/db/log_reader.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/db/log_writer.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/db/memtable.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/db/skiplist.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/db/snapshot.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/db/table_cache.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/db/version_edit.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/db/version_set.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/db/write_batch_internal.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/helpers/memenv/memenv.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/port/port.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/port/port_stdcxx.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/port/thread_annotations.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/table/block.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/table/block_builder.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/table/filter_block.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/table/format.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/table/iterator_wrapper.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/table/merger.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/table/two_level_iterator.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/util/arena.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/util/coding.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/util/crc32c.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/util/hash.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/util/logging.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/util/mutexlock.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/util/no_destructor.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/util/posix_logger.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/util/random.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/leveldb/util/windows_logger.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/logging.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/logging.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/logging/categories.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/logging/timer.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/mapport.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/mapport.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/memusage.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/merkleblock.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/merkleblock.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/musig.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/musig.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/net.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/net.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/net_permissions.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/net_permissions.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/net_processing.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/net_processing.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/net_types.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/net_types.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/netaddress.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/netaddress.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/netbase.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/netbase.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/netgroup.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/netgroup.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/netmessagemaker.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/abort.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/abort.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/blockmanager_args.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/blockmanager_args.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/blockstorage.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/node/blockstorage.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/node/caches.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/caches.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/chainstate.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/node/chainstate.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/node/chainstatemanager_args.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/chainstatemanager_args.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/coin.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/coin.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/coins_view_args.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/coins_view_args.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/connection_types.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/connection_types.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/context.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/context.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/database_args.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/database_args.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/eviction.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/eviction.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/interface_ui.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/interface_ui.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/interfaces.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/kernel_notifications.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/kernel_notifications.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/mempool_args.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/mempool_args.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/mempool_persist.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/mempool_persist.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/mempool_persist_args.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/mempool_persist_args.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/miner.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/miner.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/mini_miner.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/mini_miner.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/mining_args.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/mining_args.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/mining_types.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/minisketchwrapper.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/minisketchwrapper.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/peerman_args.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/peerman_args.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/protocol_version.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/psbt.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/psbt.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/timeoffsets.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/timeoffsets.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/transaction.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/transaction.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/txdownloadman.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/txdownloadman_impl.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/txdownloadman_impl.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/txorphanage.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/txorphanage.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/txreconciliation.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/txreconciliation.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/types.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/utxo_snapshot.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/node/utxo_snapshot.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/node/warnings.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/node/warnings.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/noui.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/noui.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/outputtype.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/outputtype.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/policy/ephemeral_policy.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/policy/ephemeral_policy.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/policy/feerate.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/policy/feerate.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/policy/fees/block_policy_estimator.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/policy/fees/block_policy_estimator.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/policy/fees/estimator_args.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/policy/fees/estimator_args.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/policy/fees/estimator_man.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/policy/fees/estimator_man.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/policy/fees/mempool_estimator.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/policy/fees/mempool_estimator.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/policy/packages.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/policy/packages.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/policy/policy.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/policy/policy.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/policy/rbf.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/policy/rbf.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/policy/settings.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/policy/settings.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/policy/truc_policy.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/policy/truc_policy.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/pow.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/pow.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/prevector.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/primitives/block.cpp",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/primitives/block.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/primitives/transaction.cpp",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/primitives/transaction.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/primitives/transaction_identifier.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/private_broadcast.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/private_broadcast.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/protocol.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/protocol.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/psbt.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/psbt.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/pubkey.cpp",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/pubkey.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/qt/addressbookpage.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/addressbookpage.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/addresstablemodel.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/addresstablemodel.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/askpassphrasedialog.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/askpassphrasedialog.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/bantablemodel.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/bantablemodel.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/bitcoin.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/bitcoin.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/bitcoinaddressvalidator.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/bitcoinaddressvalidator.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/bitcoinamountfield.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/bitcoinamountfield.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/bitcoingui.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/bitcoingui.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/bitcoinstrings.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/bitcoinunits.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/bitcoinunits.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/clientmodel.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/clientmodel.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/coincontroldialog.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/coincontroldialog.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/coincontroltreewidget.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/coincontroltreewidget.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/createwalletdialog.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/createwalletdialog.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/csvmodelwriter.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/csvmodelwriter.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/editaddressdialog.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/editaddressdialog.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/freespacechecker.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/freespacechecker.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/guiconstants.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/guiutil.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/guiutil.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/initexecutor.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/initexecutor.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/intro.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/intro.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/macdockiconhandler.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/macdockiconhandler.mm",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/macnotificationhandler.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/macnotificationhandler.mm",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/macos_appnap.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/macos_appnap.mm",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/main.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/modaloverlay.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/modaloverlay.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/networkstyle.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/networkstyle.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/notificator.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/notificator.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/openuridialog.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/openuridialog.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/optionsdialog.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/optionsdialog.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/optionsmodel.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/optionsmodel.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/overviewpage.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/overviewpage.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/paymentserver.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/paymentserver.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/peertablemodel.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/peertablemodel.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/peertablesortproxy.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/peertablesortproxy.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/platformstyle.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/platformstyle.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/psbtoperationsdialog.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/psbtoperationsdialog.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/qrimagewidget.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/qrimagewidget.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/qvalidatedlineedit.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/qvalidatedlineedit.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/qvaluecombobox.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/qvaluecombobox.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/receivecoinsdialog.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/receivecoinsdialog.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/receiverequestdialog.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/receiverequestdialog.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/recentrequeststablemodel.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/recentrequeststablemodel.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/rpcconsole.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/rpcconsole.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/sendcoinsdialog.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/sendcoinsdialog.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/sendcoinsentry.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/sendcoinsentry.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/sendcoinsrecipient.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/signverifymessagedialog.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/signverifymessagedialog.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/splashscreen.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/splashscreen.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/trafficgraphwidget.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/trafficgraphwidget.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/transactiondesc.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/transactiondesc.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/transactiondescdialog.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/transactiondescdialog.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/transactionfilterproxy.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/transactionfilterproxy.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/transactionoverviewwidget.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/transactionoverviewwidget.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/transactionrecord.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/transactionrecord.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/transactiontablemodel.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/transactiontablemodel.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/transactionview.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/transactionview.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/utilitydialog.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/utilitydialog.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/walletcontroller.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/walletcontroller.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/walletframe.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/walletframe.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/walletmodel.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/walletmodel.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/walletmodeltransaction.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/walletmodeltransaction.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/walletview.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/walletview.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/winshutdownmonitor.cpp",
+   "layer": "api"
+  },
+  {
+   "glob": "src/qt/winshutdownmonitor.h",
+   "layer": "api"
+  },
+  {
+   "glob": "src/random.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/random.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/randomenv.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/randomenv.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/rest.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rest.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/blockchain.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/blockchain.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/client.cpp",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/rpc/client.h",
+   "layer": "entry"
+  },
+  {
+   "glob": "src/rpc/external_signer.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/fees.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/mempool.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/mempool.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/mining.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/mining.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/net.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/node.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/output_script.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/protocol.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/rawtransaction.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/rawtransaction_util.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/rpc/rawtransaction_util.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/rpc/register.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/request.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/rpc/request.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/rpc/server.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/server.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/server_util.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/server_util.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/signmessage.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/txoutproof.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/rpc/util.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/rpc/util.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/scheduler.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/scheduler.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/script/descriptor.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/script/descriptor.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/script/interpreter.cpp",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/script/interpreter.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/script/keyorigin.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/script/miniscript.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/script/miniscript.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/script/parsing.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/script/parsing.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/script/script.cpp",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/script/script.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/script/script_error.cpp",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/script/script_error.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/script/sigcache.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/script/sigcache.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/script/sign.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/script/sign.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/script/signingprovider.cpp",
+   "layer": "config"
+  },
+  {
+   "glob": "src/script/signingprovider.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/script/solver.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/script/solver.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/script/verify_flags.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/semaphore_grant.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/serialize.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/signet.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/signet.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/span.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/streams.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/streams.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/support/allocators/pool.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/support/allocators/secure.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/support/allocators/zeroafterfree.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/support/cleanse.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/support/cleanse.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/support/lockedpool.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/support/lockedpool.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/sync.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/sync.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/threadsafety.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/tinyformat.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/torcontrol.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/torcontrol.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/txdb.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/txdb.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/txgraph.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/txgraph.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/txmempool.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/txmempool.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/txrequest.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/txrequest.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/uint256.cpp",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/uint256.h",
+   "layer": "domain"
+  },
+  {
+   "glob": "src/undo.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/univalue/lib/univalue.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/univalue/lib/univalue_get.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/univalue/lib/univalue_read.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/univalue/lib/univalue_write.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/any.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/asmap.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/asmap.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/batchpriority.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/batchpriority.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/bip32.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/bip32.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/bitdeque.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/bitset.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/btcsignals.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/byte_units.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/bytevectorhash.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/bytevectorhash.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/chaintype.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/chaintype.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/check.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/check.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/exception.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/exception.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/exec.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/exec.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/expected.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/expected.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/fastrange.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/feefrac.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/feefrac.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/fees.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/fees.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/fs.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/fs.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/fs_helpers.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/fs_helpers.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/golombrice.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/hash_type.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/hasher.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/hasher.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/insert.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/log.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/macros.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/moneystr.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/moneystr.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/obfuscation.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/overflow.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/overloaded.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/rbf.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/rbf.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/readwritefile.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/readwritefile.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/result.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/serfloat.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/serfloat.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/signalinterrupt.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/signalinterrupt.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/sock.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/sock.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/stdmutex.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/strencodings.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/strencodings.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/string.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/string.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/subprocess.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/syserror.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/syserror.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/task_runner.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/thread.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/thread.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/threadinterrupt.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/threadinterrupt.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/threadnames.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/threadnames.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/threadpool.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/time.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/time.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/tokenbucket.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/tokenpipe.cpp",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/tokenpipe.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/trace.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/translation.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/types.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/ui_change_type.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/vecdeque.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/util/vector.h",
+   "layer": "utils"
+  },
+  {
+   "glob": "src/validation.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/validation.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/validationinterface.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/validationinterface.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/versionbits.cpp",
+   "layer": "data"
+  },
+  {
+   "glob": "src/versionbits.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/versionbits_impl.h",
+   "layer": "data"
+  },
+  {
+   "glob": "src/wallet/coincontrol.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/coincontrol.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/coinselection.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/coinselection.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/context.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/context.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/crypter.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/crypter.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/db.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/db.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/dump.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/dump.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/export.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/export.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/external_signer_scriptpubkeyman.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/external_signer_scriptpubkeyman.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/feebumper.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/feebumper.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/fees.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/fees.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/init.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/wallet/interfaces.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/load.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/load.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/migrate.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/migrate.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/receive.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/receive.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/rpc/addresses.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/rpc/backup.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/rpc/coins.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/rpc/encrypt.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/rpc/signmessage.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/rpc/spend.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/rpc/transactions.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/rpc/util.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/rpc/util.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/rpc/wallet.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/rpc/wallet.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/scan.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/scan.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/scriptpubkeyman.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/scriptpubkeyman.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/spend.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/spend.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/sqlite.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/sqlite.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/transaction.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/transaction.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/types.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/wallet.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/wallet.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/walletdb.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/walletdb.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/wallettool.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/wallettool.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/walletutil.cpp",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/wallet/walletutil.h",
+   "layer": "integration"
+  },
+  {
+   "glob": "src/walletinitinterface.h",
+   "layer": "config"
+  },
+  {
+   "glob": "src/zmq/zmqabstractnotifier.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/zmq/zmqabstractnotifier.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/zmq/zmqnotificationinterface.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/zmq/zmqnotificationinterface.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/zmq/zmqpublishnotifier.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/zmq/zmqpublishnotifier.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/zmq/zmqrpc.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/zmq/zmqrpc.h",
+   "layer": "service"
+  },
+  {
+   "glob": "src/zmq/zmqutil.cpp",
+   "layer": "service"
+  },
+  {
+   "glob": "src/zmq/zmqutil.h",
+   "layer": "service"
+  },
+  {
    "glob": "src/test/**",
    "layer": "tests"
   },
