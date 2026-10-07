@@ -294,6 +294,8 @@ std::string EncodeExtKey(const CExtKey& key)
 
 std::string EncodeDestination(const CTxDestination& dest)
 {
+    // Nothing to encode for an unset destination; skip building the encoder.
+    if (std::holds_alternative<CNoDestination>(dest)) return {};
     return std::visit(DestinationEncoder(Params()), dest);
 }
 
