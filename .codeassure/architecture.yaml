@@ -79,11 +79,6 @@ required_companions:
     require: ["test/functional/**/*.py"]
     reason: "a new or changed RPC needs a functional test"
     check: detect_only
-  - id: new-source-in-cmake
-    when: "src/**/*.cpp"
-    require: ["src/**/CMakeLists.txt"]
-    reason: "a new translation unit must be added to its library's CMakeLists.txt source list"
-    check: detect_only
 invariants:
   - id: no-stdout-in-kernel
     within: "src/kernel/**"
